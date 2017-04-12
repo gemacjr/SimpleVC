@@ -4,31 +4,32 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1000" contentMode="center" reuseIdentifier="" id="ZxS-cx-D8Y">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CardCell" id="hjm-lH-bkc">
             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" tag="1000" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wij-cj-5xn">
+                    <imageView userInteractionEnabled="NO" tag="1000" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="P6p-gT-zUr">
                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                     </imageView>
                 </subviews>
             </view>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="wij-cj-5xn" secondAttribute="trailing" id="DDp-zh-dAr"/>
-                <constraint firstItem="wij-cj-5xn" firstAttribute="leading" secondItem="ZxS-cx-D8Y" secondAttribute="leading" id="ET4-Kd-TgX"/>
-                <constraint firstItem="wij-cj-5xn" firstAttribute="top" secondItem="ZxS-cx-D8Y" secondAttribute="top" id="GLy-74-5qp"/>
-                <constraint firstAttribute="bottom" secondItem="wij-cj-5xn" secondAttribute="bottom" id="vAH-tT-5oV"/>
+                <constraint firstAttribute="trailing" secondItem="P6p-gT-zUr" secondAttribute="trailing" id="DMT-GD-ySG"/>
+                <constraint firstAttribute="bottom" secondItem="P6p-gT-zUr" secondAttribute="bottom" id="ahb-Vy-Q5w"/>
+                <constraint firstItem="P6p-gT-zUr" firstAttribute="leading" secondItem="hjm-lH-bkc" secondAttribute="leading" id="lE6-7k-7ke"/>
+                <constraint firstItem="P6p-gT-zUr" firstAttribute="top" secondItem="hjm-lH-bkc" secondAttribute="top" id="z8w-k9-Wte"/>
             </constraints>
-            <point key="canvasLocation" x="330" y="207"/>
+            <point key="canvasLocation" x="13" y="20"/>
         </collectionViewCell>
     </objects>
 </document>
